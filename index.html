@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pogoda</title>
+</head>
+<body id="body">
+    <div class="field" >
+        <input id="input" type="text" placeholder="Miasto" on/>
+        <div class="line" id="field"></div>
+    </div>
+    <div class="weatherInfo" id="weatherInfo">
+        <div class="top">
+            <div class="mainContainer">
+                <h1 class="main" id="city">-</h1>
+                <h1 class="main" id="temperature">-°C</h1>
+            </div>
+            <div class="iconContainer">
+                <img src="./zdj/rain.png" class="icon" id="icon"> 
+                <p id="iconDes" class="iconDes">-</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="details">
+                <div>
+                    <img src="./zdj/wind.png">
+                    <p id="wind">- m/s</p>
+                </div>
+                <div>
+                    <img src="./zdj/barometer1.png">
+                    <p id="pressure">- hPa</p>
+
+                </div>
+                <div>
+                    <img src="./zdj/cloud.png">
+                    <p id="clouds">- chmur</p>
+                </div>
+                <div>
+                    <img src="./zdj/sunrise.png" id="sunriseImg">
+                    <p id="sunrise">00:00:00</p>
+                </div>
+            </div>
+            <div class="nextDays" id="nextDays">
+                <div class="day" id="day">
+                    <p class="godzina">-</p>
+                    <p class="temp">-°C</p>
+                    <img src="./zdj/raining.png"> 
+                    <p class="dzien">-</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>

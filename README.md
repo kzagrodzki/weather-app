@@ -1,1 +1,1 @@
-# weather-app
+Prosta strona wykonana w vanilla html jako projekt szkolny, wykorzystując API.
